@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* width: 1270px; */
+    margin: auto;
+}
+header {
+    background: #e5547329;
+}
+.topBanner{
+    display: flex;
+    align-items: center;
+    margin: 0px 200px;
+}
+.banner-img img{
+    width: 100%;
+}
+.banner-text {
+    /* margin-top: 10%; */
+}
+
+.banner-text h2 {
+    width: 500px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-family: math;
+    font-weight: 600;
+}
+
+.banner-text p {
+    font-size: 17px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+button.banner-btn {
+    font-size: 18px;
+    border: none;
+    background: #E55473;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-family: math;
+}
+
+section.featuredFlowers {
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.featuredText h2 {
+    font-size: 30px;
+    font-family: math;
+    font-weight: 700;
+}
+
+.featuredText p {
+    width: 35%;
+    margin: auto;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.featuredImg {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.fImg1 p {
+    text-decoration: underline;
+}
+
+.fImg2 p {
+    text-decoration: underline;
+}
+.fImg3 p {
+    text-decoration: underline;
+}
+.fImg1 {
+    background: #aa4d7a2e;
+    padding: 50px;
+    margin: 30px 30px;
+    border-radius: 200px 200px 0px 0px;
+}
+.fImg2 {
+    background: #b8e3e5;
+    padding: 50px;
+    margin: 30px 30px;
+    border-radius: 200px 200px 0px 0px;
+}
+.fImg3 {
+    background: #c9ddb5;
+    padding: 50px;
+    margin: 30px 30px;
+    border-radius: 200px 200px 0px 0px;
+}
+
+section.servicePart {
+    display: flex;
+    text-align: center;
+    margin-top: 50px !important;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    background: #2727271c;
+    padding: 30px 50px;
+    border-radius: 50px 0px 50px 0px;
+    border: 1px solid #cfc2c2;
+}
+
+
+
